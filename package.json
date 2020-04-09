@@ -1,0 +1,12 @@
+{
+  "name": "product-landing-page",
+  "version": "1.0.0",
+  "description": "product landing page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jem Galeon",
+  "license": "ISC",
+  "dependencies": {}
+}

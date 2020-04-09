@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Purrify</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        alt="logo"
+        src="https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Cat-512.png"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#products">Products</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="container text-center">
+        <!-- hero -->
+        <h1>Caring for your felines</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Learn more</button>
+      </section>
+      <section id="services" class="container">
+        <!-- Services -->
+        <div class="services">
+          <span class="icon material-icons icon">
+            loyalty
+          </span>
+          <div class="services-content">
+            <h2>Adoption</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+              aliquam nisl. In rhoncus dignissim magna aliquam tempor. Vivamus
+              tristique eleifend enim vel euismod.
+            </p>
+          </div>
+        </div>
+        <div class="services">
+          <span class="icon material-icons">
+            pets
+          </span>
+          <div class="services-content">
+            <h2>Cat Grooming</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+              aliquam nisl. In rhoncus dignissim magna aliquam tempor. Vivamus
+              tristique eleifend enim vel euismod.
+            </p>
+          </div>
+        </div>
+        <div class="services">
+          <span class="icon material-icons">
+            star
+          </span>
+          <div class="services-content">
+            <h2>Training</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+              aliquam nisl. In rhoncus dignissim magna aliquam tempor. Vivamus
+              tristique eleifend enim vel euismod.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="promotion" class="container">
+        <!-- Promotion -->
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/IKR6FPerXes"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="products" class="container">
+        <!-- Products -->
+        <div class="card">
+          <h2 class="card-title">Cat Foot</h2>
+          <h4 class="price">$25</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Get</button>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Medical Kit</h2>
+          <h4 class="price">$13</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Get</button>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Hygiene Kit</h2>
+          <h4 class="price">$15</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Get</button>
+        </div>
+      </section>
+      <section id="contact" class="container">
+        <!-- Contact Us -->
+        <h2>Send us a message</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group">
+            <label for="name">Name<span class="required">*</span></label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email<span class="required">*</span></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message<span class="required">*</span></label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              placeholder="Enter your message..."
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <span>Copyright 2020 Purrify</span>
+    </footer>
+  </body>
+</html>
